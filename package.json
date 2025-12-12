@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "node --import tsx ./src/index.ts",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
